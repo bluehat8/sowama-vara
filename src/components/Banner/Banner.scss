@@ -1,0 +1,30 @@
+// src/components/Banner.scss
+.banner {
+    position: relative;
+    width: 100%;
+    height: 80vh; /* Ajusta la altura según lo que desees */
+    background-image: url('/src/assets/images/hero.jpg'); /* Ruta de la imagen que deseas usar */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner-content {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para hacer el texto más legible */
+  }
+  
+  .banner-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .banner-description {
+    font-size: 1.25rem;
+  }
+  
